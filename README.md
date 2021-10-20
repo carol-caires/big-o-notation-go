@@ -12,7 +12,7 @@ You can run an example by typing `go run example.go` to any script in the [categ
 
 ## Categories
 
-### Constant time:
+### Constant time
 #### O(1)
 
 An algorithm is said to be constant time (also written as O(1) time) if the value of T(n) 
@@ -21,3 +21,14 @@ single element in an array takes constant time as only one operation has to be p
 In a similar manner, finding the minimal value in an array sorted in ascending order; it is the first element. ([source](https://en.wikipedia.org/wiki/Time_complexity#Constant_time))
 
 Example: [constant_time.go](categories/constant_time.go)
+
+### Linear time
+#### O(n)
+
+An algorithm is said to take linear time, or O(n) time, if its time complexity is O(n). 
+Informally, this means that the running time increases at most linearly with the size of the input. 
+More precisely, this means that there is a constant c such that the running time is at most cn for every input of size n.
+For example, a procedure that adds up all elements of a list requires time proportional to the length of the list, 
+if the adding time is constant, or, at least, bounded by a constant.
+
+Example: [linear_time.go](categories/linear_time.go)
