@@ -5,14 +5,10 @@ Examples of algorithms and explanation for each Big O Notation category.
 Some examples are based in [this](https://www.youtube.com/watch?v=Mo4vesaut8g) video. If you didn't manage to understand Big O Notation yet, would be
 an excellent choice to watch it.
 
----
-
 ## Running it
 In order to run these scripts, you'll need to have [Go](https://golang.org/dl/) (preferably 1.16) installed.
 
 You can run an example by typing `go run example.go` to any script in the [categories](categories) folder.
-
----
 
 ## Categories
 
